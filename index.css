@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  margin: 0 auto;
+  display: grid;
+  width: 375px;
+  height: 594px;
+}
+
+.encabezado {
+  margin: 18px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.logo {
+  width: 54px;
+  height: 50px;
+}
+
+.boton-nav {
+  display: grid;
+  row-gap: 7px;
+  grid-template-rows: 7px 7px 7px;
+  grid-template-columns: auto;
+}
+
+.barra {
+  width: 36px;
+  height: 6px;
+  background-color: black;
+}
+
+.imagen {
+  width: 318px;
+  height: 300px;
+  justify-self: center;
+}
+
+.principal-title {
+  font-size: 48px;
+  font-family: "Open Sans";
+  margin: 94px 42px 58px 42px;
+  text-align: center;
+}
