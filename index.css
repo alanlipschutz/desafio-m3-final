@@ -49,3 +49,27 @@ body {
   text-align: center;
   margin: 89px 42px 42px;
 }
+
+.who-am-i {
+  display: grid;
+  justify-items: center;
+  background-color: #141414;
+}
+
+.title-section-2 {
+  color: white;
+  font-family: "Open Sans";
+  font-size: 32px;
+  margin: 50px auto;
+}
+
+.cuento {
+  font-family: "Roboto";
+  font-size: 16px;
+  color: #fafafa;
+  margin: 0 32px;
+}
+
+.tilde {
+  margin: 60px;
+}
