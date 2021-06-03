@@ -73,3 +73,31 @@ body {
 .tilde {
   margin: 60px;
 }
+
+.my-services,
+.services {
+  display: grid;
+  justify-items: center;
+  margin: 0 auto;
+}
+
+.services-title-principal {
+  font-family: "Open Sans";
+  font-size: 32px;
+  margin-top: 70px;
+}
+
+.services {
+  margin: 56px;
+  text-align: center;
+}
+
+.services-title {
+  font-family: "Roboto";
+  font-size: 24px;
+}
+
+.services-text {
+  font-family: "Roboto";
+  font-size: 16px;
+}
