@@ -12,92 +12,111 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  align-content: center;
+  width: 100%;
 }
-
 .logo {
   width: 54px;
   height: 50px;
-  margin: 18px;
+  margin: 18px 17px;
 }
 
 .boton-nav {
+  margin: 29px 20px;
   display: grid;
   gap: 7px;
-  margin: 30px;
 }
 
 .barra {
   width: 36px;
   height: 6px;
-  background-color: black;
+  background-color: #141414;
 }
 
 .main {
-  display: grid;
-  justify-items: center;
-  background-color: #c4c4c4;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 100%;
 }
-
+.principal-title {
+  font-family: "Open Sans";
+  font-size: 48px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 42px;
+}
 .imagen {
   width: 318px;
   height: 300px;
 }
 
-.principal-title {
-  font-size: 48px;
-  font-family: "Open Sans";
-  text-align: center;
-  margin: 89px 42px 42px;
-}
-
 .who-am-i {
-  display: grid;
-  justify-items: center;
+  margin: 0 auto;
   background-color: #141414;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 100%;
 }
 
 .title-section-2 {
-  color: white;
-  font-family: "Open Sans";
+  margin: 0;
+  color: #fafafa;
   font-size: 32px;
-  margin: 50px auto;
+  font-family: "Open Sans";
+  padding: 55px 52px;
 }
 
 .cuento {
+  color: #fafafa;
   font-family: "Roboto";
   font-size: 16px;
-  color: #fafafa;
-  margin: 0 32px;
+  margin: 0;
+  padding: 0 32px;
 }
 
 .tilde {
-  margin: 60px;
+  padding: 60px;
 }
 
 .my-services,
 .services {
-  display: grid;
-  justify-items: center;
-  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.my-services {
 }
 
 .services-title-principal {
+  margin: 0;
   font-family: "Open Sans";
   font-size: 32px;
-  margin-top: 70px;
+  text-align: center;
+  padding: 35px;
 }
 
 .services {
-  margin: 56px;
-  text-align: center;
+  margin-bottom: 100px;
 }
 
 .services-title {
   font-family: "Roboto";
   font-size: 24px;
+  text-align: center;
 }
-
 .services-text {
   font-family: "Roboto";
   font-size: 16px;
+  text-align: center;
+  padding: 0 50px;
 }
