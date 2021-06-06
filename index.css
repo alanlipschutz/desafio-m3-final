@@ -160,7 +160,7 @@ textarea {
   width: 100%;
   font-size: 24px;
   font-family: "Roboto";
-  border-radius: dashed 4px white;
+  border: dashed white;
   gap: 20px;
 }
 
