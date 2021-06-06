@@ -178,3 +178,50 @@ textarea {
   border-radius: 4px;
   padding: 20px;
 }
+
+.footer {
+  background-color: #dbdbdb;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  padding: 0 0 110px 0;
+}
+
+.icono-section {
+  display: grid;
+  padding: 53px 20px;
+  gap: 18px;
+}
+
+.logo-footer {
+  width: 77px;
+  height: 71px;
+}
+.label-icono {
+  font-family: "Roboto";
+  font-size: 13px;
+  color: #2c2c2c;
+}
+
+.social-media {
+  display: flex;
+  padding: 18px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.img-footer {
+  width: 27px;
+  height: 27px;
+}
+
+.leyend-footer {
+  padding: 0 8px;
+  font-family: "Roboto";
+  font-size: 16px;
+  color: #2c2c2c;
+  text-decoration: none;
+}
