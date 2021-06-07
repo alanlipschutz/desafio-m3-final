@@ -95,12 +95,22 @@ body {
   }
 }
 
+.container-title {
+  padding: 42px;
+  margin: 0 auto;
+}
+
+@media (min-width: 830px) {
+  .container-title {
+  }
+}
+
 .principal-title {
   font-family: "Open Sans";
   font-size: 48px;
   text-align: center;
-  margin: 0 auto;
-  padding: 42px;
+  margin: 0;
+  padding: 0;
 }
 
 @media (min-width: 830px) {
