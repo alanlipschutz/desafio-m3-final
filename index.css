@@ -149,12 +149,36 @@ body {
   width: 100%;
 }
 
+@media (min-width: 830px) {
+  .who-am-i {
+    margin: 0 auto;
+    background-color: #141414;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+  }
+}
+
 .alan-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   align-content: center;
+}
+
+@media (min-width: 830px) {
+  .alan-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: space-between;
+    padding: 90px;
+  }
 }
 
 .title-section-2 {
@@ -165,6 +189,16 @@ body {
   padding: 55px 52px;
 }
 
+@media (min-width: 830px) {
+  .title-section-2 {
+    margin: 0;
+    color: #fafafa;
+    font-size: 32px;
+    font-family: "Open Sans";
+    padding: 0;
+  }
+}
+
 .cuento {
   color: #fafafa;
   font-family: "Roboto";
@@ -173,8 +207,27 @@ body {
   padding: 0 32px;
 }
 
+@media (min-width: 830px) {
+  .cuento {
+    color: #fafafa;
+    font-family: "Roboto";
+    font-size: 16px;
+    margin: 0;
+    padding: 28px 0;
+    max-width: 532px;
+  }
+}
+
 .tilde {
   padding: 60px;
+}
+
+@media (min-width: 830px) {
+  .tilde {
+    padding: 0;
+    width: 211px;
+    height: 211px;
+  }
 }
 
 .my-services,
@@ -186,7 +239,14 @@ body {
   align-content: center;
 }
 
-.my-services {
+@media (min-width: 830px) {
+  .my-services {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
 }
 
 .services-title-principal {
@@ -195,6 +255,16 @@ body {
   font-size: 32px;
   text-align: center;
   padding: 52px;
+}
+
+@media (min-width: 830px) {
+  .services-title-principal {
+    margin: 0;
+    font-family: "Open Sans";
+    font-size: 48px;
+    text-align: center;
+    padding: 60px;
+  }
 }
 
 .services {
@@ -213,13 +283,42 @@ body {
   padding: 0 50px;
 }
 
-.form-container {
+.form-section {
   background-color: #141414;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+@media (min-width: 830px) {
+  .form-section {
+    background-color: #141414;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 100px 0;
+  }
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+@media (min-width: 830px) {
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 375px;
+    justify-content: center;
+  }
 }
 
 .form-title {
@@ -230,6 +329,19 @@ body {
   width: 100%;
   text-align: center;
   color: #fafafa;
+}
+
+@media (min-width: 830px) {
+  .form-title {
+    margin: 0;
+    font-family: "Open Sans";
+    font-size: 32px;
+    padding: 0;
+    text-align: start;
+    color: #fafafa;
+    max-width: 270px;
+    align-self: flex-start;
+  }
 }
 
 .form {
