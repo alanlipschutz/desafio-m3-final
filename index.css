@@ -92,11 +92,6 @@ body {
 
 @media (min-width: 830px) {
   .main {
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 100%;
-    column-gap: 528px;
   }
 }
 
@@ -110,18 +105,19 @@ body {
 
 @media (min-width: 830px) {
   .principal-title {
-    font-family: "Open Sans";
-    font-size: 48px;
-    text-align: start;
-    margin: 0 auto;
-    padding: 0 80px;
-    align-self: start;
   }
 }
 
 .imagen {
   width: 318px;
   height: 300px;
+}
+
+@media (min-width: 830px) {
+  .imagen {
+    width: 435px;
+    height: 395px;
+  }
 }
 
 .who-am-i {
